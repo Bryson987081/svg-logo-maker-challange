@@ -44,10 +44,10 @@ class Svg {
         this.shapeColor = ''
     }
     render() {
-        return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200"`
+        return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shape}${this.text}</svg>`
     }
     setText(text, textColor) {
-        this.text = `<text x="150" y="125" font-size="70" text-anchor="middle" fill="${textColor}">${text}`
+        this.text = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text>`
     }
     setShape(shape, shapeColor) {
         this.shape = shape.render()
@@ -85,7 +85,9 @@ async function init() {
         userShape = new Square();
     } else if (userShape === "triangle") {
         userShape = new Triangle();
-    };
+    }
+    
+    userShape.setColor(userShapeColor);
 
     const svg = new Svg();
     svg.setText(userText, userTextColor);
