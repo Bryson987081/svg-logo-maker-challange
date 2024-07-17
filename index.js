@@ -86,7 +86,7 @@ async function init() {
     } else if (userShape === "triangle") {
         userShape = new Triangle();
     }
-    
+
     userShape.setColor(userShapeColor);
 
     const svg = new Svg();
