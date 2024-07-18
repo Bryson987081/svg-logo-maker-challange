@@ -19,7 +19,7 @@ The purpose of this challange was to create a command line application to build 
 
 - The `.svg` file is then created and displays the user created SVG logo.
 
-## Example SVG
+## Example SVGs
 
 ![Example SVG](./examples/blueTxt.svg)
 ![Example SVG](./examples/greenSvg.svg)
@@ -27,6 +27,6 @@ The purpose of this challange was to create a command line application to build 
 
 ## Links
 
-[Video]()
+[Video](https://drive.google.com/file/d/1eiPGx3l6GnRN4j_KyikCC_JBO0Ks_NNg/view?usp=sharing)
 
 [GitHub Repo](https://github.com/Bryson987081/svg-logo-maker-challange)
